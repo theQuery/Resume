@@ -1,12 +1,12 @@
 .progress-bar {
     display: flex;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
 }
 
 .progress-bar__container {
     width: 60%;
-    height: 8px;
+    height: 0.5rem;
     overflow: hidden;
     border-radius: 0.5rem;
     background: gray;
@@ -14,5 +14,4 @@
 
 .progress-bar__progress {
     height: 100%;
-    background: var(--primary-color);
 }

@@ -1,9 +1,9 @@
 import './index.css';
 
 function Main() {
-  return <main>
-    <h2>Prosjekter</h2>
+  return <main className='main'>
+    <h3>Prosjekter</h3>
   </main>
 }
 
-export default Main
+export default Main;
