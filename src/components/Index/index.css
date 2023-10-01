@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Shantell+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  background: black;
+  --primary-color: hsl(280, 30%, 50%);
+  --primary-color-dark: hsl(280, 30%, 30%);
+  --secondary-color: hsl(240, 30%, 30%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@page {
+  size: A4;
+}
