@@ -52,6 +52,7 @@ function Aside() {
         <ProgressBar label='Python' percent={60} />
         <ProgressBar label='C' percent={55} />
         <ProgressBar label='Lua' percent={35} />
+        <ProgressBar label='Java' percent={20} />
       </AsideSection>
       <AsideSection label='Rammer'>
         <ProgressBar label='React' percent={75} />
