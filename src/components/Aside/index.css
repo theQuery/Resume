@@ -18,7 +18,9 @@
 
 .aside__avatar {
   width: 100%;
+  aspect-ratio: 1;
   padding: 4px;
+  object-fit: cover;
   border-radius: 50%;
   border: solid 4px var(--primary-color);
 }
