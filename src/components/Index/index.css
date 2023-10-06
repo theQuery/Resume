@@ -18,9 +18,13 @@ body,
   display: grid;
   place-items: center;
   background: black;
-  --primary-color: hsl(280, 30%, 50%);
-  --primary-color-dark: hsl(280, 30%, 30%);
+  --primary-color: hsl(280, 30%, 30%);
   --secondary-color: hsl(240, 30%, 30%);
+  --border-color: hsl(280, 30%, 50%);
+
+  --primary-color: hsl(180, 100%, 22%);
+  --secondary-color: hsl(190, 100%, 12%);
+  --border-color: hsl(159, 64%, 43%);
 }
 
 a {

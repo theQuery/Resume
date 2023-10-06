@@ -6,7 +6,7 @@
   width: 30%;
   height: 100%;
   padding: 20px;
-  background: linear-gradient(var(--secondary-color), var(--primary-color-dark));
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
   color: white;
 }
 
@@ -22,7 +22,7 @@
   padding: 4px;
   object-fit: cover;
   border-radius: 50%;
-  border: solid 4px var(--primary-color);
+  border: solid 4px var(--border-color);
 }
 
 .aside__name {
