@@ -32,14 +32,14 @@ function Aside() {
         href='https://thequery.github.io/personal-website/'
         target='_blank'
       >
-        <Icon src={WebsiteIcon} /> Klikk for Nettside
+        <Icon src={WebsiteIcon} /> Personlig Nettside &#8599;
       </a>
       <a
         className='aside__contact'
         href='https://github.com/theQuery'
         target='_blank'
       >
-        <Icon src={WebsiteIcon} /> Klikk for GitHub
+        <Icon src={WebsiteIcon} /> GitHub Profil &#8599;
       </a>
     </AsideSection>
     <div className='aside__progress-bars'>
