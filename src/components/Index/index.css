@@ -25,9 +25,14 @@ body,
   --primary-color: hsl(180, 100%, 22%);
   --secondary-color: hsl(190, 100%, 12%);
   --border-color: hsl(159, 64%, 43%);
+
+  --primary-color: hsl(240, 50%, 30%);
+  --secondary-color: hsl(250, 50%, 20%);
+  --border-color: hsl(220, 50%, 50%);
 }
 
 a {
+  width: fit-content;
   color: white;
   text-decoration: none;
 }
