@@ -1,5 +1,5 @@
 import './index.css';
-import tomImage from '../../assets/tom.png';
+import tomImage from '../../assets/tom.jpg';
 import PhoneIcon from '../../assets/phone.svg';
 import EmailIcon from '../../assets/email.svg';
 import HomeIcon from '../../assets/home.svg';
@@ -13,7 +13,7 @@ function Aside() {
       <img className='aside__avatar' src={tomImage} alt='Tom' />
       <h1 className='aside__name'>Tom Kristoffersen</h1>
       <p className='aside__about-me'>
-        En 22 år gammel lidenskapelig og selvlært programmerer
+        En 23 år gammel lidenskapelig og selvlært programmerer
         på jakt etter smarte løsninger og spennende utviklingsoppdrag.
       </p>
     </div>
