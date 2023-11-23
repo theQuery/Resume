@@ -4,6 +4,7 @@ import PhoneIcon from '../../assets/phone.svg';
 import EmailIcon from '../../assets/email.svg';
 import HomeIcon from '../../assets/home.svg';
 import WebsiteIcon from '../../assets/website.svg';
+import Section from '../Section';
 import Icon from '../Icon';
 import ProgressBar from '../ProgressBar';
 
@@ -17,7 +18,7 @@ function Aside() {
         på jakt etter smarte løsninger og spennende utviklingsoppdrag.
       </p>
     </div>
-    <AsideSection label='Kontakt'>
+    <Section label='Kontakt'>
       <span className='aside__contact'>
         <Icon src={PhoneIcon} /> 957 50 517
       </span>
@@ -41,9 +42,9 @@ function Aside() {
       >
         <Icon src={WebsiteIcon} /> GitHub Profil &#8599;
       </a>
-    </AsideSection>
+    </Section>
     <div className='aside__progress-bars'>
-      <AsideSection label='Språk'>
+      <Section label='Språk'>
         <ProgressBar label='JavaScript' percent={85} />
         <ProgressBar label='CSS' percent={85} />
         <ProgressBar label='HTML' percent={75} />
@@ -53,38 +54,26 @@ function Aside() {
         <ProgressBar label='C' percent={55} />
         <ProgressBar label='Lua' percent={35} />
         <ProgressBar label='Java' percent={20} />
-      </AsideSection>
-      <AsideSection label='Rammer'>
+      </Section>
+      <Section label='Rammer'>
         <ProgressBar label='React' percent={75} />
         <ProgressBar label='Express' percent={65} />
         <ProgressBar label='NodeJS' percent={60} />
-      </AsideSection>
-      <AsideSection label='Tjenester'>
+      </Section>
+      <Section label='Tjenester'>
         <ProgressBar label='CF' percent={75} />
         <ProgressBar label='EC2' percent={70} />
         <ProgressBar label='RDS' percent={70} />
         <ProgressBar label='S3' percent={60} />
         <ProgressBar label='Redis' percent={50} />
-      </AsideSection>
-      <AsideSection label='Kjedelige Språk'>
+      </Section>
+      <Section label='Kjedelige Språk'>
         <ProgressBar label='Norsk' percent={95} />
         <ProgressBar label='Engelsk' percent={85} />
         <ProgressBar label='Hebraisk' percent={70} />
-      </AsideSection>
+      </Section>
     </div>
   </aside>
-}
-
-function AsideSection({ label, children }) {
-  return <div className='aside-section'>
-    <h2 className='aside-section__label'>
-      {label}
-      <span className='aside-section__line'></span>
-    </h2>
-    <div className='aside-section__children'>
-      {children}
-    </div>
-  </div>
 }
 
 export default Aside;
