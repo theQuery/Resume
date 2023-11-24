@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 0.2rem;
+  background: hsl(0, 0%, 95%);
+}
+
+.block__label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+
+.block__name {
+  margin: 0;
+}
+
+.block__children {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  white-space: break-spaces;
+}
