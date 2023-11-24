@@ -6,6 +6,7 @@ import HomeIcon from '../../assets/home.svg';
 import WebsiteIcon from '../../assets/website.svg';
 import Section from '../Section';
 import Icon from '../Icon';
+import Link from '../Link';
 import ProgressBar from '../ProgressBar';
 
 function Aside() {
@@ -28,20 +29,20 @@ function Aside() {
       <span className='aside__contact'>
         <Icon src={HomeIcon} /> Rosenlundveien 37, 3150
       </span>
-      <a
-        className='aside__contact'
-        href='https://thequery.github.io/personal-website/'
-        target='_blank'
-      >
-        <Icon src={WebsiteIcon} /> Personlig Nettside &#8599;
-      </a>
-      <a
-        className='aside__contact'
-        href='https://github.com/theQuery'
-        target='_blank'
-      >
-        <Icon src={WebsiteIcon} /> GitHub Profil &#8599;
-      </a>
+      <span className='aside__contact'>
+        <Icon src={WebsiteIcon} />
+        <Link
+          link='https://thequery.github.io/personal-website/'
+          anchor='Personlig Nettside'
+        />
+      </span>
+      <span className='aside__contact'>
+        <Icon src={WebsiteIcon} />
+        <Link
+          link='https://github.com/theQuery'
+          anchor='GitHub Profil'
+        />
+      </span>
     </Section>
     <div className='aside__progress-bars'>
       <Section label='Språk'>
