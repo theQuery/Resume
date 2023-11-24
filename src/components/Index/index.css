@@ -29,16 +29,14 @@ body,
   --primary-color: hsl(240, 50%, 30%);
   --secondary-color: hsl(250, 50%, 20%);
   --border-color: hsl(220, 50%, 50%);
-}
 
-a {
-  width: fit-content;
-  color: white;
-  text-decoration: none;
-}
+  --primary-color: hsl(230, 80%, 30%);
+  --secondary-color: hsl(220, 50%, 50%);
+  --border-color: hsl(230, 50%, 70%);
 
-a:hover {
-  text-decoration: underline;
+  --primary-color: hsl(220, 50%, 30%);
+  --secondary-color: hsl(230, 50%, 20%);
+  --border-color: hsl(200, 50%, 50%);
 }
 
 @media print {
