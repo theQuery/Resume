@@ -20,6 +20,8 @@
 .block__children {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 10px;
+  height: 100%;
   white-space: break-spaces;
 }
