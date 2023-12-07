@@ -4,11 +4,14 @@ import Link from '../Link';
 
 function Tags({ tags }) {
   return <div className='tags'>
-    {tags.map(tag => {
-      return <div key={tag} className='tags__tag'>
-        {tag}
-      </div>
-    })}
+    {tags.length
+      ? tags.map(tag => {
+        return <div key={tag} className='tags__tag'>
+          {tag}
+        </div>
+      })
+      : 'Ingen Tools'
+    }
   </div>
 }
 
