@@ -1,9 +1,9 @@
 .link {
   width: fit-content;
-  color: white;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .link:hover {
-  text-decoration: underline;
+  text-decoration: dotted underline;
 }
