@@ -1,0 +1,19 @@
+.second-page {
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.second-page__header {
+    flex-grow: 1;
+    height: 200px;
+    padding: 20px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    color: white;
+    text-align: right;
+}
+
+.second-page__body {
+    padding: 20px;
+}
