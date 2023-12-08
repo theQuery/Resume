@@ -1,5 +1,6 @@
 import './index.css';
 import Block from '../Block';
+import Paragraph from '../Paragraph';
 import Link from '../Link';
 
 function Tags({ tags }) {
@@ -26,7 +27,7 @@ function Projects({ projects }) {
         label={`${name} (${type})`}
         date={date}
       >
-        {description}
+        <Paragraph text={description} />
         <div className='projects__details'>
           <Link
             link={deployment}
