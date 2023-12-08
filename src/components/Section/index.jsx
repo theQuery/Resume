@@ -1,18 +1,21 @@
 import './index.css';
 
-function Section({ label, gap, children }) {
-  return <div className='section'>
+function Section({ label, gap, grid, children }) {
+  return <section className='section'>
     <h2 className='section__label'>
       {label}
       <span className='section__line'></span>
     </h2>
     <div
       className='section__children'
-      style={{ gap: gap ? '10px' : null }}
+      style={{
+        gap: gap && '10px',
+        display: grid && 'grid'
+      }}
     >
       {children}
     </div>
-  </div>
+  </section>
 }
 
 export default Section;
