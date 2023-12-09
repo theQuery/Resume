@@ -1,14 +1,10 @@
-import './index.css';
-import Page from '../Page';
-import Aside from '../Aside';
-import Main from '../Main';
+import FirstPage from '../FirstPage';
+import SecondPage from '../SecondPage';
 
 function App() {
   return <div className='app'>
-    <Page>
-      <Aside />
-      <Main />
-    </Page>
+    <FirstPage />
+    <SecondPage />
   </div>
 }
 
