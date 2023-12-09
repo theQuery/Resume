@@ -1,3 +1,4 @@
+import './index.css';
 import FirstPage from '../FirstPage';
 import SecondPage from '../SecondPage';
 

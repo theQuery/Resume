@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media not print {
+    .app {
+        gap: 10px;
+        padding: 10px;
+    }
+}
