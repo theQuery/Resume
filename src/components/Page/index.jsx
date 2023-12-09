@@ -1,7 +1,10 @@
 import './index.css';
 
-function Page({ children }) {
-    return <div className='page'>
+function Page({ column, children }) {
+    return <div
+        className='page'
+        style={{ flexDirection: column && 'column' }}
+    >
         {children}
     </div>
 }

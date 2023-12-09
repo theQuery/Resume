@@ -1,9 +1,3 @@
-.second-page {
-    display: flex;
-    flex-direction: column;
-    background: white;
-}
-
 .second-page__header {
     flex-grow: 1;
     height: 200px;
