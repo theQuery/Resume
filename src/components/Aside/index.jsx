@@ -1,9 +1,9 @@
 import './index.css';
-import tomImage from '../../assets/tom.jpg';
-import PhoneIcon from '../../assets/phone.svg';
-import EmailIcon from '../../assets/email.svg';
-import HomeIcon from '../../assets/home.svg';
-import WebsiteIcon from '../../assets/website.svg';
+import tomImage from '../../assets/images/tom.jpg';
+import PhoneIcon from '../../assets/icons/phone.svg';
+import EmailIcon from '../../assets/icons/email.svg';
+import HomeIcon from '../../assets/icons/home.svg';
+import WebsiteIcon from '../../assets/icons/website.svg';
 import Section from '../Section';
 import Icon from '../Icon';
 import Link from '../Link';
