@@ -23,7 +23,7 @@
         "name": "Datecord",
         "type": "BOT",
         "date": "Jun 2021 - Jan 2022",
-        "repository": null,
+        "repository": "https://gitfront.io/r/theQuery/Ttkg2gxkp65N/Datecord/",
         "deployment": null,
         "languages": [ "JavaScript", "SQL" ],
         "tools": [ "DiscordJS", "NodeJS", "MySQL" ],
@@ -33,21 +33,21 @@
         "name": "Image Downloader",
         "type": "SKRIPT",
         "date": "Sep 2023 - Sep 2023",
-        "repository": null,
+        "repository": "https://github.com/theQuery/Shared/tree/main/image-downloader",
         "deployment": null,
         "languages": [ "Python" ],
         "tools": [ "Selenium" ],
         "description": "Et konfigurerbart skript som laster ned bildefiler fra nettsider og plasserer dem i mapper basert på oppløsning deres.\n\nKonfigurasjonen lar brukeren laste ned alle typer bildefiler fra hvilken som helst nettside."
     },
     {
-        "name": "Rock Paper Scissors",
-        "type": "APP",
-        "date": "Sep 2021 - Sep 2021",
-        "repository": null,
-        "deployment": null,
+        "name": "Rick & Morty",
+        "type": "PWA",
+        "date": "Jan 2023 - Jan 2023",
+        "repository": "https://github.com/theQuery/rickandmorty/tree/master",
+        "deployment": "https://thequery.github.io/home",
         "languages": [ "JavaScript", "HTML", "CSS" ],
-        "tools": [ "Electron" ],
-        "description": "En liten cross-platform desktop app laget med Electron for å spille stein, saks, papir."
+        "tools": [ "React" ],
+        "description": "En app som lar brukeren søke etter steder, karakterer og episoder gjennom interdimensjonale portaler i verden til Rick & Morty."
     },
     {
         "name": "Glow Cards",
