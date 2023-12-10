@@ -1,16 +1,22 @@
 import './index.css';
+import Link from '../Link';
 import Block from '../Block';
 import Paragraph from '../Paragraph';
-import Link from '../Link';
 
-function Tags({ tags }) {
+function Tags({ tags, extra }) {
   return <div className='tags'>
     {tags.length
-      ? tags.map(tag => {
-        return <div key={tag} className='tags__tag'>
-          {tag}
+      ? <>
+        {tags.map(tag => {
+          return <div key={tag} className='tags__tag'>
+            {tag}
+          </div>
+        })}
+        {extra && <div className='tags__tag'>
+          <Link link={extra} anchor='...' />
         </div>
-      })
+        }
+      </>
       : 'Ingen Tools'
     }
   </div>
@@ -20,7 +26,7 @@ function Projects({ projects }) {
   return <>
     {projects.map(project => {
       const { name, type, date, repository, deployment,
-        languages, tools, description } = project;
+        extra, languages, tools, description } = project;
 
       return <Block
         key={name}
@@ -40,7 +46,7 @@ function Projects({ projects }) {
             anchor='Repository'
             fallback='Privat Repository'
           />
-          <Tags tags={tools} />
+          <Tags tags={tools} extra={extra} />
         </div>
       </Block>
     })}
