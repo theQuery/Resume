@@ -7,7 +7,7 @@ function ProgressBar({ label, percent }) {
                 className='progress-bar__progress'
                 style={{
                     width: `${percent}%`,
-                    background: `hsl(${percent}, 100%, 60%)`
+                    background: `hsl(${percent}, 100%, 50%)`
                 }}
             >
             </div>
