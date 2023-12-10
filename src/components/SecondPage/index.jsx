@@ -3,6 +3,7 @@ import smallProjects from '../../assets/json/projects-small.json';
 import Page from '../Page';
 import Section from '../Section';
 import Projects from '../Projects';
+import Block from '../Block';
 
 function SecondPage() {
   return <Page column>
@@ -12,6 +13,14 @@ function SecondPage() {
     <div className='second-page__body'>
       <Section label='Mindre Prosjekter' grid gap>
         <Projects projects={smallProjects} />
+        <Block label='Og mange mer...'>
+          <a
+            className='second-page__stickman'
+            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+            target='_blank'
+          >
+          </a>
+        </Block>
       </Section>
     </div>
   </Page>
