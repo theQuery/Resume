@@ -15,7 +15,7 @@ function Tags({ tags, extra }) {
         </div>
         }
       </>
-      : 'Ingen Tools'
+      : 'Ingen Verktøy'
     }
   </div>
 }
