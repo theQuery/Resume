@@ -5,20 +5,3 @@
   text-transform: uppercase;
   font-weight: bolder;
 }
-
-.tags {
-  display: flex;
-  justify-content: flex-end;
-  gap: 5px;
-}
-
-.tags__tag {
-  background: var(--primary-color);
-  border-radius: 0.2rem;
-  padding-block: 0.1rem;
-  padding-inline: 0.2rem;
-  min-width: 20px;
-  text-align: center;
-  font-size: 0.8rem;
-  color: white;
-}

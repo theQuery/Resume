@@ -1,26 +1,8 @@
 import './index.css';
-import Link from '../Link';
 import Block from '../Block';
 import Paragraph from '../Paragraph';
-
-function Tags({ tags, extra }) {
-  return <div className='tags'>
-    {tags.length
-      ? <>
-        {tags.map(tag => {
-          return <div key={tag} className='tags__tag'>
-            {tag}
-          </div>
-        })}
-        {extra && <div className='tags__tag'>
-          <Link link={extra} anchor='...' />
-        </div>
-        }
-      </>
-      : 'Ingen Tools'
-    }
-  </div>
-}
+import Link from '../Link';
+import Tags from '../Tags';
 
 function Projects({ projects }) {
   return <>
