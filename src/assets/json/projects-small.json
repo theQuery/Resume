@@ -2,12 +2,12 @@
     {
         "name": "Resolutio",
         "type": "EXE",
-        "date": "Sep 2023 - Sep 2023",
+        "date": "Sep 2023",
         "repository": "https://github.com/theQuery/Shared/tree/main/resolutio",
         "deployment": "https://github.com/theQuery/Shared/blob/main/resolutio/resolutio.exe",
         "languages": [ "C" ],
         "tools": [ "WinAPI", "GCC", "Windres" ],
-        "description": "Et program som lar Windows brukeren veksle mellom HD og UHD skjermoppløsning med hjelp av ett enkelt knappeklikk i stedet for de vanlige syv. Jeg er lat, men på en effektiv måte."
+        "description": "Et program som lar Windows brukeren veksle mellom HD og UHD skjermoppløsning ved hjelp av ett enkelt knappeklikk i stedet for de vanlige syv. Brukeren kan være lat, men på en effektiv måte."
     },
     {
         "name": "Resume",
@@ -17,7 +17,7 @@
         "deployment": null,
         "languages": [ "JavaScript", "HTML", "CSS" ],
         "tools": [ "React" ],
-        "description": "En CV laget med programmering for enkel endring og redigering. Det er denne du leser akkurat nå."
+        "description": "En CV laget med programmering for enkel endring og redigering, men også fordi Word ikke ville fungere. Det er denne du leser akkurat nå."
     },
     {
         "name": "Datecord",
@@ -27,32 +27,32 @@
         "deployment": null,
         "languages": [ "JavaScript", "SQL" ],
         "tools": [ "DiscordJS", "NodeJS", "MySQL" ],
-        "description": "En Discord bot som lar brukere matche med hverandre i henhold til profilenes preferanser. I tillegg, kan brukere tjene Diamonds basert på interaksjonene deres med hverandre."
+        "description": "En Discord bot som lar brukerne matche med hverandre i henhold til profilenes preferanser. I tillegg kan brukerne tjene Diamonds basert på interaksjonene deres med hverandre."
     },
     {
         "name": "Image Downloader",
         "type": "SKRIPT",
-        "date": "Sep 2023 - Sep 2023",
+        "date": "Sep 2023",
         "repository": "https://github.com/theQuery/Shared/tree/main/image-downloader",
         "deployment": null,
         "languages": [ "Python" ],
         "tools": [ "Selenium" ],
-        "description": "Et konfigurerbart skript som laster ned bildefiler fra nettsider og plasserer dem i mapper basert på oppløsning deres.\n\nKonfigurasjonen lar brukeren laste ned alle typer bildefiler fra hvilken som helst nettside."
+        "description": "Et konfigurerbart skript som laster ned bildefiler fra nettsider og plasserer dem i mapper basert på oppløsningen deres.\n\nKonfigurasjonen lar brukeren laste ned alle typer bildefiler fra hvilken som helst nettside."
     },
     {
         "name": "Rick & Morty",
         "type": "PWA",
-        "date": "Jan 2023 - Jan 2023",
+        "date": "Jan 2023",
         "repository": "https://github.com/theQuery/rickandmorty/tree/master",
         "deployment": "https://thequery.github.io/home",
         "languages": [ "JavaScript", "HTML", "CSS" ],
         "tools": [ "React" ],
-        "description": "En app som lar brukeren søke etter steder, karakterer og episoder gjennom interdimensjonale portaler i verden til Rick & Morty."
+        "description": "En applikasjon som lar brukeren søke etter steder, karakterer og episoder via interdimensjonale portaler i verden til Rick & Morty."
     },
     {
         "name": "Glow Cards",
         "type": "EFFEKT",
-        "date": "Sep 2023 - Sep 2023",
+        "date": "Sep 2023",
         "repository": "https://github.com/theQuery/Shared/tree/main/glow-cards",
         "deployment": "https://glow-cards.netlify.app",
         "languages": [ "JavaScript", "HTML", "CSS" ],
@@ -62,7 +62,7 @@
     {
         "name": "Coinflip GUI",
         "type": "EXE",
-        "date": "Jun 2021 - Jun 2021",
+        "date": "Jun 2021",
         "repository": "https://github.com/theQuery/Coinflip-GUI/tree/main",
         "deployment": "https://github.com/theQuery/Coinflip-GUI/blob/main/Coinflip%20GUI.exe",
         "languages": [ "AHK" ],

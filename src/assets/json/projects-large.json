@@ -8,7 +8,7 @@
         "languages": [ "JavaScript", "HTML", "CSS", "SQL" ],
         "tools": [ "React", "Express", "NodeJS", "MySQL", "Nginx" ],
         "extra": "https://gitfront.io/r/theQuery/QP1qqAmmrrfo/chatpex/blob/server/package.json",
-        "description": "En samfunnsorientert chatteapplikasjon med fokus på grupperom som er redigerbare i stil og funksjonalitet. Applikasjonen inneholder teknologier som auth, websocket kommunikasjon, filopplastinger, caching, TTS, notifikasjoner og mer.\n\nServeren som er bak alt dette ligger på AWS og bruker tjenester som EC2, RDS, S3, CloudFront og IAM med flere ulike sikkerhetstiltak til stede. Kan brukes på både mobil og desktop."
+        "description": "En samfunnsorientert chatteapplikasjon med fokus på grupperom som er redigerbare i stil og funksjonalitet. Applikasjonen inneholder teknologier som auth, websocket kommunikasjon, notifikasjoner, filopplasting, caching, routing, TTS og mer.\n\nServeren som er bak alt dette ligger på AWS og bruker tjenester som EC2, RDS, S3, CloudFront og IAM med flere ulike sikkerhetstiltak til stede. Kan brukes på både mobil og desktop."
     },
     {
         "name": "Sambabe",
@@ -20,8 +20,8 @@
             "JavaScript",
             "SQL"
         ],
-        "tools": [ "DiscordJS", "Express", "NodeJS", "MySQL", "Redis" ],
+        "tools": [ "DiscordJS", "NodeJS", "Cron", "MySQL", "Redis" ],
         "extra": "https://gitfront.io/r/theQuery/GGNVH5CeDQ9A/Sambabe/blob/package.json",
-        "description": "En Discord bot med 100+ forskjellige kommandoer og set-ups brukt av tusenvis av brukere daglig."
+        "description": "En Discord bot med 100+ kommandoer og oppsett brukt av tusenvis av brukere daglig. Inntektene tvang meg til å lansere TMK Media AS."
     }
 ]
