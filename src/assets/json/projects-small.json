@@ -23,7 +23,7 @@
         "name": "Datecord",
         "type": "BOT",
         "date": "Jun 2021 - Jan 2022",
-        "repository": "https://gitfront.io/r/theQuery/Ttkg2gxkp65N/Datecord/",
+        "repository": "https://gitfront.io/r/theQuery/Ttkg2gxkp65N/Datecord",
         "deployment": null,
         "languages": [ "JavaScript", "SQL" ],
         "tools": [ "DiscordJS", "NodeJS", "MySQL" ],
@@ -44,7 +44,7 @@
         "type": "PWA",
         "date": "Jan 2023",
         "repository": "https://github.com/theQuery/rickandmorty/tree/master",
-        "deployment": "https://thequery.github.io/home",
+        "deployment": "https://rickandmortyforever.netlify.app",
         "languages": [ "JavaScript", "HTML", "CSS" ],
         "tools": [ "React" ],
         "description": "En applikasjon som lar brukeren søke etter steder, karakterer og episoder via interdimensjonale portaler i verden til Rick & Morty."
