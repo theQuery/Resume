@@ -48,25 +48,25 @@ function Aside() {
       <Section label='Språk'>
         <ProgressBar label='JavaScript' percent={85} />
         <ProgressBar label='CSS' percent={85} />
-        <ProgressBar label='HTML' percent={75} />
+        <ProgressBar label='HTML' percent={80} />
         <ProgressBar label='AHK' percent={75} />
         <ProgressBar label='SQL' percent={75} />
+        <ProgressBar label='TypeScript' percent={70} />
         <ProgressBar label='Python' percent={60} />
         <ProgressBar label='C' percent={55} />
-        <ProgressBar label='Lua' percent={35} />
+        <ProgressBar label='Lua' percent={40} />
         <ProgressBar label='Java' percent={20} />
       </Section>
       <Section label='Rammer'>
-        <ProgressBar label='React' percent={75} />
-        <ProgressBar label='Express' percent={65} />
-        <ProgressBar label='NodeJS' percent={60} />
+        <ProgressBar label='React' percent={85} />
+        <ProgressBar label='Express' percent={70} />
       </Section>
-      <Section label='Tjenester'>
-        <ProgressBar label='CF' percent={75} />
-        <ProgressBar label='EC2' percent={70} />
-        <ProgressBar label='RDS' percent={70} />
-        <ProgressBar label='S3' percent={60} />
-        <ProgressBar label='Redis' percent={50} />
+      <Section label='Diverse'>
+        <ProgressBar label='AWS' percent={75} />
+        <ProgressBar label='NodeJS' percent={75} />
+        <ProgressBar label='RegEx' percent={75} />
+        <ProgressBar label='Git' percent={70} />
+        <ProgressBar label='Redis' percent={65} />
       </Section>
       <Section label='Kjedelige Språk'>
         <ProgressBar label='Norsk' percent={95} />
