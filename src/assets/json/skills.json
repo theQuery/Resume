@@ -1,0 +1,30 @@
+{
+    "Språk": {
+        "JavaScript": 85,
+        "CSS": 85,
+        "HTML": 80,
+        "AHK": 75,
+        "SQL": 75,
+        "TypeScript": 70,
+        "Python": 70,
+        "C": 55,
+        "Lua": 40,
+        "Java": 20
+    },
+    "Rammer": {
+        "React": 85,
+        "Express": 70
+    },
+    "Diverse": {
+        "AWS": 75,
+        "NodeJS": 75,
+        "RegEx": 75,
+        "Git": 70,
+        "Redis": 65
+    },
+    "Kjedelige Språk": {
+        "Norsk": 95,
+        "Engelsk": 85,
+        "Hebraisk": 70
+    }
+}

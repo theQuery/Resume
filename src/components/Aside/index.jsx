@@ -1,9 +1,10 @@
 import './index.css';
 import tomImage from '../../assets/images/tom.jpg';
-import PhoneIcon from '../../assets/icons/phone.svg';
-import EmailIcon from '../../assets/icons/email.svg';
-import HomeIcon from '../../assets/icons/home.svg';
-import WebsiteIcon from '../../assets/icons/website.svg';
+import phoneIcon from '../../assets/icons/phone.svg';
+import emailIcon from '../../assets/icons/email.svg';
+import homeIcon from '../../assets/icons/home.svg';
+import websiteIcon from '../../assets/icons/website.svg';
+import skills from '../../assets/json/skills.json';
 import Section from '../Section';
 import Icon from '../Icon';
 import Link from '../Link';
@@ -21,58 +22,37 @@ function Aside() {
     </div>
     <Section label='Kontakt'>
       <span className='aside__contact'>
-        <Icon src={PhoneIcon} /> 957 50 517
+        <Icon src={phoneIcon} /> 957 50 517
       </span>
       <span className='aside__contact'>
-        <Icon src={EmailIcon} /> tomkri2000@outlook.com
+        <Icon src={emailIcon} /> tomkri2000@outlook.com
       </span>
       <span className='aside__contact'>
-        <Icon src={HomeIcon} /> Rosenlundveien 37, 3150
+        <Icon src={homeIcon} /> Rosenlundveien 37, 3150
       </span>
       <span className='aside__contact'>
-        <Icon src={WebsiteIcon} />
+        <Icon src={websiteIcon} />
         <Link
           link='https://thequery.github.io/personal-website/'
           anchor='Personlig Nettside'
         />
       </span>
       <span className='aside__contact'>
-        <Icon src={WebsiteIcon} />
+        <Icon src={websiteIcon} />
         <Link
           link='https://github.com/theQuery'
           anchor='GitHub Profil'
         />
       </span>
     </Section>
-    <div className='aside__progress-bars'>
-      <Section label='Språk'>
-        <ProgressBar label='JavaScript' percent={85} />
-        <ProgressBar label='CSS' percent={85} />
-        <ProgressBar label='HTML' percent={80} />
-        <ProgressBar label='AHK' percent={75} />
-        <ProgressBar label='SQL' percent={75} />
-        <ProgressBar label='TypeScript' percent={70} />
-        <ProgressBar label='Python' percent={60} />
-        <ProgressBar label='C' percent={55} />
-        <ProgressBar label='Lua' percent={40} />
-        <ProgressBar label='Java' percent={20} />
-      </Section>
-      <Section label='Rammer'>
-        <ProgressBar label='React' percent={85} />
-        <ProgressBar label='Express' percent={70} />
-      </Section>
-      <Section label='Diverse'>
-        <ProgressBar label='AWS' percent={75} />
-        <ProgressBar label='NodeJS' percent={75} />
-        <ProgressBar label='RegEx' percent={75} />
-        <ProgressBar label='Git' percent={70} />
-        <ProgressBar label='Redis' percent={65} />
-      </Section>
-      <Section label='Kjedelige Språk'>
-        <ProgressBar label='Norsk' percent={95} />
-        <ProgressBar label='Engelsk' percent={85} />
-        <ProgressBar label='Hebraisk' percent={70} />
-      </Section>
+    <div className='aside__skills'>
+      {Object.entries(skills).map(([key, value]) => {
+        return <Section key={key} label={key}>
+          {Object.entries(value).map(([key, value]) => {
+            return <ProgressBar key={key} label={key} percent={value} />
+          })}
+        </Section>
+      })}
     </div>
   </aside>
 }
