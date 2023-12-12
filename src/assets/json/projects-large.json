@@ -16,10 +16,7 @@
         "date": "Nov 2019 - Jun 2022",
         "repository": "https://gitfront.io/r/theQuery/GGNVH5CeDQ9A/Sambabe/",
         "deployment": "https://discord.com/application-directory/600834965571371037",
-        "languages": [
-            "JavaScript",
-            "SQL"
-        ],
+        "languages": [ "JavaScript", "SQL" ],
         "tools": [ "DiscordJS", "NodeJS", "Cron", "MySQL", "Redis" ],
         "extra": "https://gitfront.io/r/theQuery/GGNVH5CeDQ9A/Sambabe/blob/package.json",
         "description": "En Discord bot med 100+ kommandoer og oppsett brukt av tusenvis av brukere daglig. Inntektene tvang meg til å lansere TMK Media AS."
