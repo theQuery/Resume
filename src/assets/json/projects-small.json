@@ -40,14 +40,14 @@
         "description": "Et konfigurerbart skript som laster ned bildefiler fra nettsider og plasserer dem i mapper basert på oppløsningen deres.\n\nKonfigurasjonen lar brukeren laste ned alle typer bildefiler fra hvilken som helst nettside."
     },
     {
-        "name": "Rick & Morty",
-        "type": "PWA",
-        "date": "Jan 2023",
-        "repository": "https://github.com/theQuery/rickandmorty/tree/master",
-        "deployment": "https://rickandmortyforever.netlify.app",
+        "name": "Creative Coding",
+        "type": "CANVAS",
+        "date": "Jun 2024",
+        "repository": "https://github.com/theQuery/creative-coding/tree/main",
+        "deployment": "https://ccbytmk.netlify.app",
         "languages": [ "JavaScript", "HTML", "CSS" ],
         "tools": [ "React" ],
-        "description": "En applikasjon som lar brukeren søke etter steder, karakterer og episoder via interdimensjonale portaler i verden til Rick & Morty."
+        "description": "En sømløs nettside som presenterer flere kreative og engasjerende HTML5 Canvas-prosjekter som jeg har utviklet så langt."
     },
     {
         "name": "Glow Cards",
