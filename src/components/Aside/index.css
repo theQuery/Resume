@@ -5,15 +5,15 @@
   flex-shrink: 0;
   width: 30%;
   height: 100%;
-  padding: 20px;
-  background: linear-gradient(var(--primary-color), var(--secondary-color));
-  color: white;
+  padding: var(--space-lg);
+  background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+  color: var(--inverse-text-color);
 }
 
 .aside__me {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--space-md);
 }
 
 .aside__avatar {
@@ -39,11 +39,11 @@
 .aside__contact {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--space-md);
 }
 
 .aside__skills {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-lg);
 }

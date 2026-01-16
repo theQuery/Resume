@@ -1,0 +1,22 @@
+[
+        {
+        "name": "GuardX",
+        "type": "SYSTEM",
+        "date":"Jun 2025 - Apr 2026",
+        "company": "Frequentis",
+        "website": "https://www.frequentis.com/en/recording/guardx",
+        "languages": [ "C#", "TypeScript", "HTML", "CSS", "SQL" ],
+        "tools": [ ".NET", "Angular", "NodeJS", "SQLite" ],
+        "description": "Et system for sikker behandling av lyd-, radar- og videodata for lufttrafikkstyring og luftfartsrelaterte ulykkesundersøkelser, der jeg bidro med flere funksjonelle forbedringer i perioden jeg jobbet hos Frequentis.\n\nJeg implementerte blant annet integrasjon av transkripsjoner i en mediespiller, passordbeskyttede dataeksporter, forbedret håndtering av eksisterende transkripsjon funksjonaliteter, ulike eksportløsninger og sanntids fremdriftsindikasjon, samt oppgradering og modernisering av frontend-kode. Jeg jobbet i et agilt team med Jira, Jenkins og Sonar."
+    },
+    {
+        "name": "License Portal",
+        "type": "SSR",
+        "date":"Nov 2024 - Jun 2025",
+        "company": "Frequentis",
+        "website": "https://www.frequentis.com/en",
+        "languages": [ "C#", "JavaScript", "HTML", "CSS", "T-SQL" ],
+        "tools": [ "ASP.NET", "Razor Pages", "SQL Server" ],
+        "description": "En fullstack-applikasjon selvstendig arkitektert og utviklet i ASP.NET med Razor Pages, Windows-autentisering og EF Core, som i dag fungerer som kritisk infrastruktur i selskapet for generering, administrering og visualisering av lisensnøkler og produktfunksjoner for GuardX-kunder.\n\nLøsningen støtter også nedlasting av detaljerte lisensrapporter, flere fleksible metoder for lisensgenerering, handling-basert audit logging, og rettighetsstyring med separate tillatelser for forskjellige typer brukere."
+    }
+]

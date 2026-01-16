@@ -2,6 +2,6 @@
     display: flex;
     width: 21cm;
     height: 29.7cm;
-    background: white;
+    background: var(--main-background-color);
     font-family: Calibri, 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
 }

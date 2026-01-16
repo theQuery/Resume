@@ -1,26 +1,27 @@
 {
     "Språk": {
-        "JavaScript": 85,
+        "JavaScript": 90,
+        "TypeScript": 85,
         "CSS": 85,
         "HTML": 80,
-        "AHK": 75,
+        "C#": 80,
         "SQL": 75,
-        "TypeScript": 70,
         "Python": 70,
+        "AHK": 60,
         "C": 55,
         "Lua": 40,
         "Java": 20
     },
     "Rammeverk": {
         "React": 85,
-        "Express": 70
+        "Angular": 75,
+        "Express": 70,
+        ".NET": 70
     },
     "Diverse": {
+        "Git": 80,
         "AWS": 75,
-        "NodeJS": 75,
-        "RegEx": 75,
-        "Git": 70,
-        "Redis": 65
+        "NodeJS": 75
     },
     "Menneskespråk": {
         "Norsk": 95,

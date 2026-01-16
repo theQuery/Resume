@@ -1,3 +1,4 @@
+import './index.css';
 import Page from '../Page';
 import Aside from '../Aside';
 import Main from '../Main';

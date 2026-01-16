@@ -6,7 +6,7 @@
         "repository": "https://gitfront.io/r/theQuery/QP1qqAmmrrfo/chatpex/",
         "deployment": "https://chatpex.com",
         "languages": [ "JavaScript", "HTML", "CSS", "SQL" ],
-        "tools": [ "React", "Express", "NodeJS", "MySQL", "Nginx" ],
+        "tools": [ "React", "Express", "NodeJS", "MySQL", "Nginx", "AWS SDK" ],
         "extra": "https://gitfront.io/r/theQuery/QP1qqAmmrrfo/chatpex/blob/server/package.json",
         "description": "En samfunnsorientert chatteapplikasjon med fokus på grupperom som er redigerbare i stil og funksjonalitet. Applikasjonen inneholder teknologier som auth, websocket kommunikasjon, REST API, notifikasjoner, filopplasting, caching, routing, TTS og mer.\n\nServeren som er bak alt dette ligger på AWS og bruker tjenester som EC2, RDS, S3, CloudFront og IAM med flere ulike sikkerhetstiltak til stede. Kan brukes på både mobil og desktop."
     },

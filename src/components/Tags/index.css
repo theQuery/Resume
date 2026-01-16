@@ -1,16 +1,16 @@
 .tags {
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
+  gap: var(--space-sm);
 }
 
 .tags__tag {
-  background: var(--primary-color);
-  border-radius: 0.2rem;
-  padding-block: 0.1rem;
-  padding-inline: 0.2rem;
+  padding-block: 1.2pt;
+  padding-inline: 2.4pt;
   min-width: 20px;
+  border-radius: var(--border-radius-md);
+  background: var(--primary-color);
   text-align: center;
-  font-size: 0.8rem;
-  color: white;
+  font-size: var(--font-size-sm);
+  color: var(--inverse-text-color);
 }

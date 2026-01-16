@@ -1,15 +1,15 @@
 .progress-bar {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: var(--space-md);
 }
 
 .progress-bar__container {
     width: 60%;
     height: 0.5rem;
     overflow: hidden;
-    border-radius: 0.2rem;
-    background: gray;
+    border-radius: var(--border-radius-md);
+    background: var(--misc-color);
 }
 
 .progress-bar__progress {

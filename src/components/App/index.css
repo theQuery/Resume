@@ -6,7 +6,7 @@
 
 @media not print {
     .app {
-        gap: 10px;
-        padding: 10px;
+        gap: var(--space-md);
+        padding: var(--space-md);
     }
 }

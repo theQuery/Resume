@@ -16,7 +16,7 @@ function Aside() {
       <img className='aside__avatar' src={tomImage} alt='Tom' />
       <h1 className='aside__name'>Tom Kristoffersen</h1>
       <p className='aside__about-me'>
-        En 23 år gammel lidenskapelig og selvlært programmerer
+        En 25 år gammel lidenskapelig og selvlært programmerer
         på jakt etter smarte løsninger og spennende utviklingsoppdrag.
       </p>
     </div>
@@ -29,13 +29,6 @@ function Aside() {
       </span>
       <span className='aside__contact'>
         <Icon src={homeIcon} /> Rosenlundveien 37, 3150
-      </span>
-      <span className='aside__contact'>
-        <Icon src={websiteIcon} />
-        <Link
-          link='https://thequery.github.io/personal-website/'
-          anchor='Personlig Nettside'
-        />
       </span>
       <span className='aside__contact'>
         <Icon src={websiteIcon} />

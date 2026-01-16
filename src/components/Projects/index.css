@@ -1,7 +1,7 @@
 .projects__details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: var(--space-sm);
   text-transform: uppercase;
   font-weight: bolder;
 }

@@ -7,12 +7,19 @@ import Tags from '../Tags';
 function Projects({ projects }) {
   return <>
     {projects.map(project => {
-      const { name, type, date, repository, deployment,
-        extra, languages, tools, description } = project;
+      const { name, type, company, website, date, repository,
+        deployment, extra, languages, tools, description } = project;
+
+      const nameAndType = `${name} (${type})`;
+      const deploymentType = company ? 'Privat' : 'Ingen';
 
       return <Block
         key={name}
-        label={`${name} (${type})`}
+        label={<Link
+          link={website}
+          anchor={`${nameAndType} — Ansatt i ${company}`}
+          fallback={nameAndType}
+        />}
         date={date}
       >
         <Paragraph text={description} />
@@ -20,7 +27,7 @@ function Projects({ projects }) {
           <Link
             link={deployment}
             anchor='Deployment'
-            fallback='Ingen Deployment'
+            fallback={`${deploymentType} Deployment`}
           />
           <Tags tags={languages} />
           <Link

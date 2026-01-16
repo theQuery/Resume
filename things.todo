@@ -1,0 +1,13 @@
+- ~~Put the svgs in an icons folder and tom.png in an images folder.~~
+- ~~Maybe add a fading (left to right) tag that says "5 more" for when there's no space.~~
+- ~~Do the same for the "mindre prosjekter" page, after the last one add a tiny fading box that says "# more...". Maybe make it a clickable link that links to your github.~~
+- Add spinner ~~and glow-cards and image-downloader (say it splits images into folders depending on size)~~
+- ~~Do something with these:
+```jsx
+<ProgressBar label='AWS' percent={60} />
+<ProgressBar label='Vultr' percent={50} />
+<ProgressBar label='RegEx' percent={65} />
+<ProgressBar label='Git' percent={65} />
+```~~
+- ~~Fix the deployment of the rick and morty project.~~
+- ~~Put largeProjects on the second page and remove 2-3 of the smaller projects. Then there's space to put workProjects/experience on the first page.~~

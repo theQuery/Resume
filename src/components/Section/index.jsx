@@ -9,7 +9,7 @@ function Section({ label, gap, grid, children }) {
     <div
       className='section__children'
       style={{
-        gap: gap && '10px',
+        gap: gap && 'var(--space-md)',
         display: grid && 'grid'
       }}
     >
